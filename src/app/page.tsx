@@ -213,7 +213,8 @@ export default function Page() {
                 >
                   with a direct message on Twitter
                 </Link>{" "}
-                if you'd like to chat, and I'll respond as soon as I can.
+                if you&apos;d like to chat, and I&apos;ll respond as soon as I
+                can.
               </p>
             </div>
           </BlurFade>
