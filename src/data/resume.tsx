@@ -132,7 +132,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/CheddarHQ/CheddarV2",
           icon: <Icons.github className="size-3" />,
         },
       ],
