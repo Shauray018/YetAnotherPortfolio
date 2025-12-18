@@ -27,7 +27,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blackjack", icon: NotebookIcon, label: "BlackJack" },
+    // { href: "/blackjack", icon: NotebookIcon, label: "BlackJack" },
   ],
   contact: {
     email: "hello@example.com",
