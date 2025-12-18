@@ -8,6 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import Image from "next/image";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -73,6 +74,12 @@ export default function Page() {
             </BlurFade>
           ))}
         </div>
+      <div className="relative inline-block mt-4">
+        <Image height={500} width={1000} src="/Review.png" alt="" />
+        <div className="absolute bottom-4 right-4 bg-black/70 text-white px-4 py-2 rounded-lg text-sm">
+          BoardCerts's CEO review
+        </div>
+      </div>
       </section>
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
