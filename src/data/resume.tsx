@@ -109,7 +109,7 @@ export const DATA = {
     {
       title: "Warpify",
       href: "https://www.warpify.co/",
-      dates: "Dec 2024 - Present",
+      dates: "Dec 2024 - Jan 2025",
       active: true,
       description:
         "Our system ensures rapid, scalable solutions for outbound teams and sales-driven companies like Growth Engine X to optimize their outreach efforts from day one. ",
@@ -131,6 +131,32 @@ export const DATA = {
       ],
       image: "",
       video: "/warpify.mp4",
+    },
+    {
+      title: "Solana Lottery DApp",
+      href: "https://solana-lottery-dapp.vercel.app/",
+      dates: "April 2025",
+      active: true,
+      description:
+        "Built a Solana smart contract using Anchor framework in Rust for a decentralized lottery system. Implemented secure ticket purchase, random winner selection and prize distribution.",
+      technologies: [
+        "Rust",
+        "Anchor",
+        "Solana",
+        "Next.js",
+        "Typescript",
+        "Daisy UI",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://solana-lottery-dapp.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/SolanaDapp.png",
+      video: "",
     },
     {
       title: "Cheddar",
@@ -222,7 +248,7 @@ export const DATA = {
       description:
         "Developed a mobile application which help people buy solana based meme coins thorugh upi",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
+        "/RadarLogotoo.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [
         {

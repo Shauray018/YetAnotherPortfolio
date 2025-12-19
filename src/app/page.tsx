@@ -74,12 +74,25 @@ export default function Page() {
             </BlurFade>
           ))}
         </div>
-      <div className="relative inline-block mt-4">
-        <Image height={500} width={1000} src="/Review.png" alt="" />
-        <div className="absolute bottom-4 right-4 bg-black/70 text-white px-4 py-2 rounded-lg text-sm">
-          BoardCerts&apos;s CEO review
-        </div>
-      </div>
+        <BlurFade
+              delay={BLUR_FADE_DELAY * 7}
+            >
+            <div className="relative inline-block mt-4">
+              <Image height={500} width={1000} src="/Review.png" alt="" />
+              <div className="
+                absolute bottom-2 right-2
+                bg-black/70 text-white
+                px-2 py-1 text-xs
+                rounded-md
+
+                sm:bottom-4 sm:right-4
+                sm:px-4 sm:py-2 sm:text-sm
+                sm:rounded-lg
+              ">
+                BoardCerts&apos;s CEO review
+              </div>
+            </div>
+        </BlurFade>
       </section>
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
