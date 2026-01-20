@@ -107,6 +107,38 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Groovy-UI",
+      href: "https://groovy-ui.vercel.app/",
+      dates: "Dec-2025 - present",
+      active: true,
+      description:
+        "An open-source React Native UI library for Expo apps featuring fancy, animated components crafted and maintained by the community.",
+      technologies: [
+        "React Native",
+        "Reanimated",
+        "Expo",
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://groovy-ui.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Shauray018/groovy-ui",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/groovy-ui.png",
+      video: "",
+    },
+    
+    {
       title: "Warpify",
       href: "https://www.warpify.co/",
       dates: "Dec 2024 - Jan 2025",
