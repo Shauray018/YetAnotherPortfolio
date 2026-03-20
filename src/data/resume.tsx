@@ -96,15 +96,23 @@ export const DATA = {
     },
   ],
   education: [
-    {
-      school: "Punjab Engineering College",
-      href: "https://pec.ac.in/",
-      degree: "Bachelor's of Technology",
-      logoUrl: "/pec.jpg",
-      start: "2022",
-      end: "2026",
-    },
-  ],
+  {
+    school: "Rektoff × Solana Rust Security Bootcamp",
+    href: "https://rektoff.xyz/bootcamp",
+    degree: "Cohort #4 — Solana Smart Contract Security in Rust (1 of 125 selected from 4000+ applicants)",
+    logoUrl: "/rektoff.png", // add their logo if you have it
+    start: "March 2026",
+    end: "Present",
+  },
+  {
+    school: "Punjab Engineering College",
+    href: "https://pec.ac.in/",
+    degree: "Bachelor's of Technology",
+    logoUrl: "/pec.jpg",
+    start: "2022",
+    end: "2026",
+  },
+],
   projects: [
     {
       title: "Groovy-UI",
