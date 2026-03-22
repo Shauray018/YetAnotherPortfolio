@@ -200,7 +200,7 @@ export const DATA = {
     },
     {
       title: "Cheddar",
-      href: "https://www.cheddr.fun/",
+      href: "https://cheddar-app.vercel.app/",
       dates: "August 2024 - Present",
       active: true,
       description:
