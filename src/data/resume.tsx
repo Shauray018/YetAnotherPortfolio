@@ -8,10 +8,10 @@ export const DATA = {
   location: "Chandigarh, India",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Full Stack Developer diving into web3 and startups. Building the future, one project at a time.",
+    "Full stack builder in web3 and startups, focused on shipping fast and turning ideas into real, usable products.",
   summary:
-    "I’m a 4th-year student who likes building stuff. I take part in hackathons for fun and work on different tech projects. Recently, I’ve been exploring Rust and building smart contracts on solana with it.",
-  avatarUrl: "/shauray.png.jpeg",
+    "4th-year student who enjoys building and shipping products. Co-founded a project, worked at startups, and built a web3 app that secured a $4000 grant. Currently exploring Rust and building smart contracts on Solana.",
+  avatarUrl: "/shauray.png",
   skills: [
     "React",
     "Next.js",
@@ -30,8 +30,8 @@ export const DATA = {
     // { href: "/blackjack", icon: NotebookIcon, label: "BlackJack" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "shauraydhingra03@gmail.com",
+    tel: "9996927327",
     social: {
       GitHub: {
         name: "GitHub",
@@ -115,6 +115,67 @@ export const DATA = {
 ],
   projects: [
     {
+      title: "Cheddar",
+      href: "https://cheddar-app.vercel.app/",
+      dates: "August 2024 - January 2025",
+      active: true,
+      description:
+        "Cheddar is India's first UPI-integrated meme coin trading platform and launchpad built on Solana. I was the main frontend developer and helped in building the entire platform.",
+      technologies: [
+        "React Native",
+        "Typescript",
+        "Next.js",
+        "supabase",
+        "Tamagui",
+        "Solana",
+        "Cloudflare Workers",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://cheddar-app.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/CheddarHQ/CheddarV2",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/Cheddr.mp4",
+    },
+    {
+      title: "Mentoreo",
+      href: "https://www.mentoreo.in/",
+      dates: "February 2026 - Present",
+      active: true,
+      description:
+        "Peer-to-peer micro-consultancy connecting confused students with verified seniors.",
+      technologies: [
+        "Typescript",
+        "Next.js",
+        "supabase",
+        "RazrPay",
+        "WebRTC",
+        "Tailwind",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.mentoreo.in/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Shauray018/mentoreo.in",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/mentoreo.mp4",
+    },
+    {
       title: "Groovy-UI",
       href: "https://groovy-ui.vercel.app/",
       dates: "Dec-2025 - present",
@@ -197,37 +258,6 @@ export const DATA = {
       ],
       image: "/SolanaDapp.png",
       video: "",
-    },
-    {
-      title: "Cheddar",
-      href: "https://cheddar-app.vercel.app/",
-      dates: "August 2024 - Present",
-      active: true,
-      description:
-        "Cheddar is India's first UPI-integrated meme coin trading platform and launchpad built on Solana. I was the main frontend developer and helped in building the entire platform.",
-      technologies: [
-        "React Native",
-        "Typescript",
-        "Next.js",
-        "supabase",
-        "Tamagui",
-        "Solana",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.cheddr.fun/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/CheddarHQ/CheddarV2",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "/Cheddr.mp4",
     },
     {
       title: "Medium Clone",
